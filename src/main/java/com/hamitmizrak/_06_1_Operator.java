@@ -1,6 +1,6 @@
 package com.hamitmizrak;
 
-public class _06_Operator {
+public class _06_1_Operator {
 
     static void main() {
         // + - * /
