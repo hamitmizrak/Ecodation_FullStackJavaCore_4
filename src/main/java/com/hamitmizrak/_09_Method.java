@@ -1,6 +1,6 @@
 package com.hamitmizrak;
 
-// Method: VEri tekrarını önleyen demektir.
+// Method: Veri tekrarını önleyen demektir.
 // camelCase isimlendirme yapılır
 // isimlendirmede çok çok uzun kelimeler kullanmayız
 public class _09_Method {
