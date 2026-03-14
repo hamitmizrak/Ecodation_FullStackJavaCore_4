@@ -13,6 +13,5 @@ public class _06_3_Random {
         Random random= new Random();
         int number=random.nextInt(3)+1;
         System.out.println(number);
-
     }
 }
