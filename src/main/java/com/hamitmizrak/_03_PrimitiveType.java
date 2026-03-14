@@ -2,8 +2,10 @@ package com.hamitmizrak;
 
 public class _03_PrimitiveType {
     static void main() {
-        // primitive type(İlker Türler)
+        // primitive type(İlkel Türler)
         // stack memory
+        // null değer alamaz
+        // 8 tanedir
 
         // 4 tane sayı
         byte primitiveByte=127; // -128<=SAYI<=127
@@ -24,6 +26,9 @@ public class _03_PrimitiveType {
 
         char primitiveChar2='\u4235';
         System.out.println(primitiveChar2);
+
+        // null veremezsiniz
+        //int data=null;
     }
 
 }
