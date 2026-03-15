@@ -5,6 +5,8 @@ package com.hamitmizrak;
 * Her öğrenci için isim ve not alınır.
 * Ortalama hersaplanır
 * En yüksek notu bulunur.
+*
+* İpucu: Scanner, String[], conditional, for v.s
 * */
 public class _12_0_Examples {
 
