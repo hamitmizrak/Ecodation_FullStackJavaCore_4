@@ -1,6 +1,6 @@
 package com.hamitmizrak;
 
-public class _15_Generics {
+public class _16_Generics {
 }
 
 
