@@ -1,4 +1,4 @@
 package com.hamitmizrak;
 
-public class _13_Class {
+public class _15_Generics {
 }

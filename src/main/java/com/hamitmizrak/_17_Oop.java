@@ -1,4 +1,4 @@
 package com.hamitmizrak;
 
-public class _12_Thread {
+public class _17_Oop {
 }
