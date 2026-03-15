@@ -14,3 +14,8 @@ public class _08_3_Loop_DoWhile {
         while(i <=10);
     }
 }
+
+/*
+Pazartesi-Salı-Çarşamba-Perşembe
+09:00-13:00
+*/
