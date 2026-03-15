@@ -1,6 +1,6 @@
 package com.hamitmizrak;
 
-public class _13_Thread {
+public class _14_Thread {
 }
 
 // Pazartesi-Salı-Çarşamba-Perşembe

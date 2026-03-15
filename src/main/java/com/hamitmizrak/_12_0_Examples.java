@@ -78,7 +78,6 @@ public class _12_0_Examples {
         }
     }
 
-
     // PSVM
     static void main() {
         allResult();
