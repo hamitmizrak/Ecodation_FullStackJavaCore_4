@@ -45,7 +45,6 @@ class Main{
         thread1.start();
         System.out.println("isAlive: "+thread1.isAlive());*/
 
-
         thread1.start();
         thread1.join();
 
