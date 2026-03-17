@@ -29,10 +29,13 @@ public class _17_3_VectorCollections {
         city.add("İzmir");
 
         // Göstermek
-        for (int i = 0; i < city.size() ; i++) {
-            System.out.println(city.get(i));
-        }
+        /*city.stream().forEach((temp)->{
+            System.out.println(temp);
+        });*/
 
+        city.forEach((temp)->{
+            System.out.println(temp);
+        });
         return city;
     }
 
@@ -42,6 +45,7 @@ public class _17_3_VectorCollections {
 
         // Elemenı getir
         System.out.println("Kaç elemanlı? "+city.size());
+        System.out.println("String'e? "+city.toString());
 
         // Saymaya sıfırdan başlar
         System.out.println("İlk elemanlı "+city.get(0));

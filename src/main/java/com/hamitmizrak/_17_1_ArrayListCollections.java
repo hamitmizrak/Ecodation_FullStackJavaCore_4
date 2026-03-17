@@ -41,6 +41,7 @@ public class _17_1_ArrayListCollections {
 
         // Elemenı getir
         System.out.println("Kaç elemanlı? "+city.size());
+        System.out.println("String'e? "+city.toString());
 
         // Saymaya sıfırdan başlar
         System.out.println("İlk elemanlı "+city.get(0));
