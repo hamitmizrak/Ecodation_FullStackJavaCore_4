@@ -1,6 +1,6 @@
 package com.hamitmizrak;
 
-public class _16_Generics <T> {
+public class _16_Generics<T> {
 
     // Field
     private T password;

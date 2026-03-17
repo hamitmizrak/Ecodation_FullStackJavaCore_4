@@ -1,6 +1,6 @@
 package com.hamitmizrak;
 
-public class _18_Oop {
+public class _18_Date {
 
     // interface
     // abstract
