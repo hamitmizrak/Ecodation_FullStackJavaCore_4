@@ -1,0 +1,37 @@
+package com.hamitmizrak.course_1.oop._2_abstract;
+
+import lombok.Getter;
+import lombok.Setter;
+
+// LOMBOK
+@Getter
+@Setter
+public class Student extends Person {
+
+    // Field
+    private String classCode;
+
+    public Student() {
+    }
+
+    public Student(String name, String surname, String password, String emailAddress) {
+        super(name, surname, password, emailAddress);
+    }
+
+    public Student(String name, String surname, String password, String emailAddress, String classCode) {
+        super(name, surname, password, emailAddress);
+        this.classCode = classCode;
+    }
+
+    @Override
+    public String toString() {
+        return "Student{" +
+                "classCode='" + classCode + '\'' +
+                "} " + super.toString();
+    }
+
+    @Override
+    public void generatePassword() {
+        System.out.println("Student Şifre oluşturuldu");
+    }
+} //end Student
