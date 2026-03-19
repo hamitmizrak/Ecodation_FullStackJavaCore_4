@@ -1,13 +1,15 @@
-package com.hamitmizrak.oop._1_inheritance;
+package com.hamitmizrak.oop._2_abstract;
+
+
 
 import java.util.UUID;
 
-public class MainInheritance {
+public class MainAbstract {
 
     static void main() {
 
-        Person person= new Person();  // instance (+)
-        //Person person= new Student(); // polymorhism
+        // Person person= new Person(); // instance (-)
+        Person person= new Student(); // polymorhism
         person.setName("person-1 adı");
         person.setSurname("person-1 soyadı");
         person.setPassword("person"+ UUID.randomUUID().toString());
